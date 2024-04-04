@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/d47b1f1b61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="w-full h-20 bg-black ">
+
+    <div class="flex">
+      <div class="flex grow ml-32 cursor-pointer max-lg:ml-9">
+        <i class="fa-brands fa-spotify text-white text-4xl mt-6"></i>
+        <h1 class="text-white text-2xl font-bold ml-1 mt-6 ">
+          Spotify
+        </h1>
+      </div>
+
+      <nav>
+        <ul class="flex mr-32 text-white font-bold mt-7 cursor-pointer max-lg:block max-lg:p-52 max-lg:bg-green-600 ">
+          <li class="mr-6 hover:text-green-500">Premiun</li>
+          <li class="mr-6 hover:text-green-500">Ayuda</li>
+          <li class="mr-6 hover:text-green-500">Descargar</li>
+          <li class="mr-6">|</li>
+          <li class="mr-6 hover:text-green-500">Registrarse</li>
+          <li class="mr-6 hover:text-green-500">Iniciar sesion</li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="">
+    <div class="w-full bg-green-800 h-2/3 pl-32 text-white">
+      <div class="pt-20 max-w-2xl">
+        <h2 class="text-5xl text-white font-bold">
+          Obtené premiun gratis por 1 mes
+        </h2>
+        <p class="mt-4 text-white text-2xl">
+          Despues,solo cuesta $ 599,00*** al mes. Cancela cuando quieras.
+        </p>
+      </div>
+
+      <div class="py-9 pb-11 font-bold">
+        <button class="p-2.5 px-8 bg-[#0c72eb] rounded-[1000px] mr-2.5 hover:p-3 hover:px-11">Empezar</button>
+        <button class="p-2.5 px-8 border-2 border-white rounded-[1000px]">Ver planes</button>
+      </div>
+
+      <div class="pb-11 max-w-2xl text-xs">
+        <p>
+          *** Después, solo cuesta $ 599,00 al mes + impuestos (incluye IVA [21%], PAIS [8%], IG/IBP [45%], que vas a
+          ver en tu extracto bancario). El mes gratis no está disponible para usuarios que ya hayan probado Premium.
+        </p>
+        <p class="underline cursor-pointer">
+          Se aplican Términos y Condiciones.
+        </p>
+      </div>
+    </div>
+
+    <!-- beneficios premium -->
+    <section class="w-full h-2/5 bg-[#fefeff]">
+      <h2 class="text-5xl font-bold py-20 flex justify-center">
+        Beneficios de Premium
+      </h2>
+
+      <div class="mt-16 flex justify-center pb-32">
+
+        <div class="block ml-20">
+          <img class="w-[150px]" src="img/music.png" alt="">
+          <div class="pr-4.5 text-center">
+            <p class="pt-6 font-bold text-[1.3rem]">
+              Descargá tu música.
+            </p>
+            <p class="pt-2.5">
+              Escuchala donde quieras.
+            </p>
+          </div>
+        </div>
+
+        <div class="block ml-20">
+          <img class="w-[150px]" src="img/phone.png" alt="">
+          <div class="pr-9 text-center max-w-[220px]">
+            <p class="pt-6 font-bold text-[1.3rem]">
+              Escuchá música sin anuncios.
+            </p>
+            <p class="pt-2.5">
+              Disfrutá de tu música sin interrupciones.
+            </p>
+          </div>
+        </div>
+
+        <div class="block ml-20">
+          <img class="w-[150px] " src="img/play.png" alt="">
+          <div class="pr-6 text-center max-w-[250px]">
+            <p class="pt-6 font-bold text-[1.3rem]">
+              Escuchá la canción que quieras.
+            </p>
+            <p class="pt-2.5">
+              Incluso en dispositivos móviles.
+            </p>
+          </div>
+        </div>
+
+        <div class="block ml-20">
+          <img class="w-[150px] " src="img/playPhone.png" alt="">
+          <div class="pr-6 text-center max-w-[220px]">
+            <p class="pt-6 font-bold text-[1.3rem]">
+              Saltos ilimitados de canciones.
+            </p>
+            <p class="pt-2.5">
+              Solo pasá a la siguiente.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- planes premium -->
+    <section class="w-full h-2/5 bg-[#eeefee]">
+
+      <div class=" flex flex-col text-center py-20">
+        <h2 class="text-5xl font-bold">
+          Elegí tu plan Premium
+        </h2>
+        <p class="text-1xl pt-6">
+          Escuchá contenido sin límites en tu celular, parlante y otros dispositivos.
+        </p>
+
+        <div class="flex justify-center pt-6 items-center">
+          <img class="pr-2"
+            src="https://content-tooling.spotifycdn.com/images/1681f8dd-2ae4-47cd-8440-8bf609bdcca8_visa.svg" alt="">
+
+          <img class="pr-2"
+            src="	https://content-tooling.spotifycdn.com/images/8f2d37bf-26e1-43f0-8007-33bee9999409_mastercard.svg"
+            alt="">
+
+          <img class="h-[15px] pr-2"
+            src="https://content-tooling.spotifycdn.com/images/744e2e4c-27d3-4ae3-9d29-581c64df2087_naranja.svg" alt="">
+
+          <img class="h-[15px] pr-2"
+            src="https://content-tooling.spotifycdn.com/images/9cd8e02c-855c-4a81-b1fa-158010ef2266_cabal.svg" alt="">
+
+          <img class="h-[15px] pr-2"
+            src="https://content-tooling.spotifycdn.com/images/4dcf33e6-9b3c-4068-b174-b6673be14c21_credimas.svg"
+            alt="">
+
+          <p class="underline cursor-pointer">+ 4 más</p>
+        </div>
+
+        <!-- tarjetas -->
+        <div class=" m-auto mt-9 w-full h-[900px] flex justify-center">
+
+          <!-- tarjeta 1 -->
+          <div class="bg-white w-[280px] h-[780px] mr-4 rounded-[10px] shadow ">
+
+            <div class="pl-4">
+              <div class="text-left pl-2.5 pt-4">
+                <p
+                  class="font-bold text-white text-[13px] w-[180px] bg-blue-500 pl-2 py-[5px] items-center rounded-[2px]">
+                  1 mes gratis al suscribirte
+                </p>
+                <p
+                  class="font-bold text-blue-500 text-[13px] w-[200px] border-[1px] border-blue-500 pl-2 py-[5px] items-center rounded-[2px] mt-2.5">
+                  Planes prepagos disponibles
+                </p>
+              </div>
+
+              <div class="text-left pl-2.5 pt-2">
+                <h2 class="text-[1.4em] font-bold">
+                  Individual
+                </h2>
+                <p class="w-[192px] tetx-2xl">
+                  $ 599,00*** al mes después del período de la oferta 1 cuenta
+                </p>
+              </div>
+
+              <hr class="border-zinc-400 border-1 mx-[10px] mt-4">
+
+              <div class="flex flex-col text-left pt-6 w-60">
+
+                <div class="flex text-left pb-2.5">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Música sin anuncios
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Escuchá tus canciones en cualquier lugar, incluso sin conexión
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Reproducción on-demand
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Prepagá o suscribite
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="pt-40">
+                <button class="p-2.5 px-20 bg-black text-white rounded-[1000px]    font-bold">Empezar</button>
+                <div class="pb-11 text-xs text-zinc-400 mt-2.5">
+                  <p>
+                    *** Después, solo cuesta $ 599,00 al mes + impuestos (incluye IVA [21%], PAIS [8%], IG/IBP [45%],
+                    que vas a ver en tu extracto bancario). El mes gratis no está disponible para usuarios que ya hayan
+                    probado Premium.
+                  </p>
+                  <p class="underline cursor-pointer"> Se aplican Términos y Condiciones.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- tarjeta 2 -->
+          <div class="bg-white w-[280px] h-[780px] mr-4 rounded-[10px] shadow">
+            <div class="pl-4">
+              <div class="text-left pl-2.5 pt-4">
+                <p
+                  class="font-bold text-white text-[13px] w-[180px] bg-blue-500 pl-2 py-[5px] items-center rounded-[2px]">
+                  1 mes gratis al suscribirte
+                </p>
+                <p
+                  class="font-bold text-blue-500 text-[13px] w-[200px] border-[1px] border-blue-500 pl-2 py-[5px] items-center rounded-[2px] mt-2.5">
+                  Planes prepagos disponibles
+                </p>
+              </div>
+
+              <div class="text-left pl-2.5 pt-2">
+                <h2 class="text-[1.4em] font-bold">
+                  Duo
+                </h2>
+                <p class="w-[192px] tetx-2xl">
+                  $ 799,00*** al mes después del período de la oferta 2 cuentas
+                </p>
+              </div>
+
+              <hr class="border-zinc-400 border-1 mx-[10px] mt-4">
+
+              <div class="flex flex-col text-left pt-6 w-60">
+
+                <div class="flex text-left pb-2.5">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    2 cuentas Premium para parejas que conviven
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Reproducción de música en modo offline, sin anuncios y on-demand
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Prepagá o suscribite
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="pt-44">
+                <button class="p-2.5 px-20 bg-black text-white rounded-[1000px]    font-bold">Empezar</button>
+                <div class="pb-11 text-xs text-zinc-400 mt-2.5">
+                  <p>
+                    *** Después, solo cuesta $ 599,00 al mes + impuestos (incluye IVA [21%], PAIS [8%], IG/IBP [45%],
+                    que vas a ver en tu extracto bancario). El mes gratis no está disponible para usuarios que ya hayan
+                    probado Premium.
+                  </p>
+                  <p class="underline cursor-pointer"> Se aplican Términos y Condiciones.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- tarjeta 3 -->
+          <div class="bg-white w-[280px] h-[780px] mr-4 rounded-[10px] shadow">
+            <div class="pl-4">
+              <div class="text-left pl-2.5 pt-4">
+                <p
+                  class="font-bold text-white text-[13px] w-[180px] bg-blue-500 pl-2 py-[5px] items-center rounded-[2px]">
+                  1 mes gratis al suscribirte
+                </p>
+                <p
+                  class="font-bold text-blue-500 text-[13px] w-[200px] border-[1px] border-blue-500 pl-2 py-[5px] items-center rounded-[2px] mt-2.5">
+                  Planes prepagos disponibles
+                </p>
+              </div>
+
+              <div class="text-left pl-2.5 pt-2">
+                <h2 class="text-[1.4em] font-bold">
+                  Familiar
+                </h2>
+                <p class="w-[192px] tetx-2xl">
+                  $ 999,00*** al mes después del período de la oferta Hasta 6 cuentas
+                </p>
+              </div>
+
+              <hr class="border-zinc-400 border-1 mx-[10px] mt-4">
+
+              <div class="flex flex-col text-left pt-6 w-60">
+
+                <div class="flex text-left pb-2.5">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    6 cuentas Premium para familiares que viven en el mismo hogar
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Bloqueo de música con contenido explícito
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Reproducción de música en modo offline, sin anuncios y on-demand
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Spotify Kids: una aplicación independiente creada solo para niños
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Prepagá o suscribite
+                  </p>
+                </div>
+
+              </div>
+              <div class="pt-9">
+                <button class="p-2.5 px-20 bg-black text-white rounded-[1000px]    font-bold">Empezar</button>
+                <div class="pb-11 text-xs text-zinc-400 mt-2.5">
+                  <p>
+                    *** Después, solo cuesta $ 599,00 al mes + impuestos (incluye IVA [21%], PAIS [8%], IG/IBP [45%],
+                    que vas a ver en tu extracto bancario). El mes gratis no está disponible para usuarios que ya hayan
+                    probado Premium.
+                  </p>
+                  <p class="underline cursor-pointer"> Se aplican Términos y Condiciones.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- tarjeta 4 -->
+          <div class="bg-white w-[280px] h-[780px] mr-4 rounded-[10px] shadow">
+            <div class="pl-4">
+              <div class="text-left pl-2.5 pt-4">
+                <p
+                  class="font-bold text-white text-[13px] w-[180px] bg-blue-500 pl-2 py-[5px] items-center rounded-[2px]">
+                  1 mes gratis al suscribirte
+                </p>
+                <p
+                  class="font-bold text-blue-500 text-[13px] w-[200px] border-[1px] border-blue-500 pl-2 py-[5px] items-center rounded-[2px] mt-2.5">
+                  Planes prepagos disponibles
+                </p>
+              </div>
+
+              <div class="text-left pl-2.5 pt-2">
+                <h2 class="text-[1.4em] font-bold">
+                  Individual
+                </h2>
+                <p class="w-[192px] tetx-2xl">
+                  $ 599,00*** al mes después del período de la oferta 1 cuenta
+                </p>
+              </div>
+
+              <hr class="border-zinc-400 border-1 mx-[10px] mt-4">
+
+              <div class="flex flex-col text-left pt-6 w-60">
+
+                <div class="flex text-left pb-2.5">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Descuento especial para estudiantes universitarios que cumplan con los requisitos
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Escuchá tus canciones en cualquier lugar, incluso sin conexión
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Reproducción on-demand
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Prepagá o suscribite
+                  </p>
+                </div>
+
+                <div class="flex text-left">
+                  <i class="fa-solid fa-check text-black text-2xl"></i>
+                  <p class="text-[1em] pl-2.5">
+                    Prepagá o suscribite
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="pt-16">
+                <button class="p-2.5 px-20 bg-black text-white rounded-[1000px]    font-bold">Empezar</button>
+                <div class="pb-11 text-xs text-zinc-400 mt-2.5">
+                  <p>
+                    *** Después, solo cuesta $ 329,00 al mes + impuestos (incluye IVA [21%], PAIS [8%], IG/IBP [45%],
+                    que vas a encontrar en tu extracto bancario). El plan solo está disponible para estudiantes de
+                    instituciones de educación superior aprobadas. Después del período de prueba, se aplica una tarifa
+                    mensual.
+                  </p>
+                  <p class="underline cursor-pointer"> Se aplican Términos y Condiciones.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="w-full h-[550px] bg-black">
+
+    <div class="m-auto mt-9 w-[90%] h-[500px] flex">
+
+      <section class="pt-9 w-[60%]">
+
+        <div class="pt-9 pl-9">
+          <div class="flex grow cursor-pointer items-center">
+            <i class="fa-brands fa-spotify text-white text-4xl mt-6"></i>
+            <h1 class="text-white text-2xl font-bold ml-1 mt-6 ">
+              Spotify
+            </h1>
+
+            <div class=" flex items-center pl-9 pt-6 text-[13px] font-bold text-zinc-400">
+              <p>
+                COMPAÑÍA
+              </p>
+            </div>
+
+            <div class=" flex items-center pl-24 pt-6 text-[13px] font-bold text-zinc-400">
+              <p>
+                COMUNIDADES
+              </p>
+            </div>
+
+            <div class=" flex items-center pl-24 pt-6 text-[13px] font-bold text-zinc-400">
+              <p>
+                ENLACES ÚTILES
+              </p>
+            </div>
+          </div>
+
+          <div class="pl-40 flex text-white ">
+            <ul>
+              <li class="pb-6 hover:text-green-500">Acerca de</li>
+              <li class="pb-6 hover:text-green-500">Empleo</li>
+              <li class="pb-6 hover:text-green-500">For the Record</li>
+            </ul>
+
+            <div class="pl-16 text-white ">
+              <ul>
+                <li class="pb-6 hover:text-green-500">Para artistas</li>
+                <li class="pb-6 hover:text-green-500">Desarrolladores</li>
+                <li class="pb-6 hover:text-green-500">Publicidad</li>
+                <li class="pb-6 hover:text-green-500">Inversionistas</li>
+                <li class="pb-6 hover:text-green-500">Proveedores</li>
+              </ul>
+            </div>
+
+            <div class="pl-20 text-white ">
+              <ul>
+                <li class="pb-6 hover:text-green-500">Ayuda</li>
+                <li class="pb-6 hover:text-green-500">Reproductor web</li>
+                <li class="pb-6 hover:text-green-500">App móvil gratis</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="flex text-white pt-28">
+            <ul class="flex text-[10px] text-zinc-400">
+              <li class="pr-6 hover:text-green-500">legal</li>
+              <li class="pr-6 hover:text-green-500">Centro de privacidad</li>
+              <li class="pr-6 hover:text-green-500">Política de Privacidad</li>
+              <li class="pr-6 hover:text-green-500">Cookies</li>
+              <li class="pr-6 hover:text-green-500">Sobre los anuncios</li>
+              <li class="pr-6 hover:text-green-500">Accesibilidad</li>
+            </ul>
+          </div>
+
+        </div>
+
+
+
+      </section>
+
+      <section class="w-[40%]">
+        <div class="pt-28 pl-60 text-white">
+          <i class="fa-brands fa-instagram mr-3 p-4 bg-[#232327] text-[25px] rounded-[50px] hover:text-green-500"></i>
+          <i class="fa-brands fa-twitter mr-3 p-4 bg-[#232327] text-[25px] rounded-[50px] hover:text-green-500"></i>
+          <i
+            class="fa-brands fa-facebook-f mr-3 p-4 px-5 bg-[#232327] text-[25px] rounded-[50px] hover:text-green-500"></i>
+        </div>
+      ©
+        <div class="pt-[270px] pr-9 text-right flex-col">
+          <div class="text-white text-[10px] text-zinc-400">
+            <div class="pb-4">
+              <i class="fa-solid fa-earth-africa"></i>
+            <span class="hover:text-green-500">Argentina</span>
+            </div>
+            <p class="text-[10px]">
+              © 2023 Spotify AB
+            </p>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>
